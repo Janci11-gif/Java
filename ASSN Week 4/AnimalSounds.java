@@ -43,9 +43,9 @@ class Cow extends Animal {
 public class AnimalSounds {
     public static void main(String[] args) {
         Animal[] animals = {
-            new Dog("Buddy"),
-            new Cat("Whiskers"),
-            new Cow("Bessie")
+            new Dog("Dog"),
+            new Cat("Cat"),
+            new Cow("Cow")
         };
         
         for(Animal animal : animals) {
